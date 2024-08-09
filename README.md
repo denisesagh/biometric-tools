@@ -7,16 +7,19 @@ Welcome to the Biometric Recognition Toolkit, a comprehensive Python-based suite
 ## Features
 
 - **Fingerprint Recognition**
-  - Capture and process fingerprint images.
   - Extract and match fingerprint features.
   - Save and load fingerprint data using pickle.
+  - Usage: 
+```bash
+python3 comparator [dataset_path] [test_image_path]
+```
+- **Face Recognition**
+  - Detect and recognize faces in images and videos.
+  - Extract facial features and perform matching.
+  - Save and load facial data using pickle.
 
 - **Voice Recognition**
   - Record and process voice samples.
   - Extract and compare voice features.
   - Save and load voice data using pickle.
 
-- **Face Recognition**
-  - Detect and recognize faces in images and videos.
-  - Extract facial features and perform matching.
-  - Save and load facial data using pickle.

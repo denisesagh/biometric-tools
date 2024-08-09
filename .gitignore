@@ -1,1 +1,8 @@
 .idea
+
+.venv
+
+/face-recognition/recognitionvideos/*
+
+/fingerprint-matcher/sampledata/*
+!/face-recognition/recognitionvideos/sample.mp4
